@@ -19,7 +19,7 @@ public class CorsConfig {
         config.setAllowedOrigins(List.of(
             "http://localhost:4200",
             "https://ewaste-production.up.railway.app",
-            "https://ewaste.vercel.app"
+            "https://ewaste-nu.vercel.app"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
@@ -38,7 +38,7 @@ public class CorsConfig {
         config.setAllowedOrigins(List.of(
             "http://localhost:4200",
             "https://ewaste-production.up.railway.app",
-            "https://ewaste.vercel.app"
+            "https://ewaste-nu.vercel.app"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
